@@ -1,0 +1,18 @@
+# Возврат займа
+
+POST {{URL}}/bank/identification
+Content-Type: application/json
+
+{
+    "bankId": 2,
+    "uuid": "{{$uuid}}",
+    "transaction_uid": "{{$uuid}}",
+    "transaction_date": "2025-01-10",
+    "payment_destination": "Заемщик инн 660701945742 возврат средств по номеру договора ИНВ-20241220/13947 НДС не облагается",
+    "amount": 25000,
+    "name": "ИП Смердов Никита Павлович",
+    "inn": "660701945742",
+    "kpp": "",
+    "account": "65734231543654675678",
+    "bik": "044525104"
+}

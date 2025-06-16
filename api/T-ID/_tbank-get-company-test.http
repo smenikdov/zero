@@ -1,0 +1,3 @@
+GET https://business.tbank.ru/openapi/sandbox/api/v1/company
+Accept: application/json
+Authorization: Bearer TBankSandboxToken

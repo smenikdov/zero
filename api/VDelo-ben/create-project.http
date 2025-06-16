@@ -1,0 +1,45 @@
+POST 127.0.0.1:3008/api/projects/create
+Accept: application/json
+Content-Type: application/json
+
+{
+    "loanerName": "ИП ГАНЬЖА АРТЕМ ЮРЬЕВИЧ",
+    "loanerINN": "662306417600",
+    "loanerKPP": null,
+
+    "nominalAccountNumber": "40802810600007903257",
+    "nominalBankCode": "044525974",
+    "nominalBankName": "АО \"ТИНЬКОФФ БАНК\"",
+
+    "requisiteAccountNumber": "40802810600007903257",
+    "requisiteBankCode": "044525974",
+    "requisiteBankName": "АО \"ТИНЬКОФФ БАНК\"",
+
+    "projectSum": 100000,
+    "projectTime": 100,
+    "projectIncomePart": 7,
+    "projectDateGiveLoan": "{{$date}}",
+
+    "projectUUID": "{{$uuid}}",
+    "documentPath": "test",
+    "documentNumber": "test",
+    "signPath": "test",
+
+    "investors": [
+        {
+            "investorName": "Смердов Никита Павлович",
+            "investorINN": "662306417600",
+            "investorKPP": null,
+            "investorIsPhysic": true,
+            "investAmount": 100000,
+
+            "requisiteAccountNumber": "40817810100077989851",
+            "requisiteBankCode": "044525974",
+            "requisiteBankName": "АО \"ТИНЬКОФФ БАНК\""
+        }
+    ]
+}
+
+
+
+

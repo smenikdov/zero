@@ -1,0 +1,12 @@
+POST 127.0.0.1:3008/api/tbank/webhook/agreement-update
+Accept: application/json
+Content-Type: application/json
+
+{
+  "agreementId": "64be58f9-c7fc-0027-96ba-763ec56a2317",
+  "status": "Signed"
+}
+
+
+
+

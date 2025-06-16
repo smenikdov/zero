@@ -1,0 +1,3 @@
+GET https://business.tbank.ru/openapi/api/v1/company
+Accept: application/json
+Authorization: Bearer t.e4yid8yu-BfVmzbdKausI9SxuQHpWW1fVrF7da7mfr0cDtnuxM99ZdFZChkgzUourcQixIuDB7fslvPCvsfePg

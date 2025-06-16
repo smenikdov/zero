@@ -1,0 +1,10 @@
+# Выдача займа
+
+POST {{ URL }}/bank/status_notification
+Content-Type: application/json
+
+{
+    "uuid": "04bad1c8-a357-461d-8a4b-1efcc0cfbd79",
+    "is_success": true,
+    "bankId": 2
+}

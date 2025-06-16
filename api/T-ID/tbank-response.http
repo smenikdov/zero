@@ -1,0 +1,4 @@
+GET {{URL}}/auth/tbank/response
+    ?code=c.KPUbsqRIQm
+    &state=2d14b756-9256-438f-9a19-6d264b63cd3d
+    &session_state=zX7LXLbI8B_v5CUHT3BkC1wAHl9xOeFs9nsBim94jCU.0oPh4odWJqpghPAEE2H4с_

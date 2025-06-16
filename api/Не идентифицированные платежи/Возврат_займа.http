@@ -1,0 +1,42 @@
+# Возврат займа
+
+POST {{URL}}/bank/identification
+Content-Type: application/json
+
+{
+    "bankId": 2,
+    "uuid": "{{$uuid}}",
+    "transaction_uid": "{{$uuid}}",
+    "transaction_date": "2022-10-07 10:10:58.586000+05:00",
+    "payment_destination": "Хочу вернуть деньги по проекту 13947",
+    "amount": 25000,
+    "name": "ИП Смердов Никита Павлович",
+    "inn": "660701945742",
+    "kpp": "",
+    "account": "65734231543654675678",
+    "bik": "044525104",
+    "meta": {
+        "operationId": "{{$uuid}}",
+        "id": "10",
+        "date": "2025-01-10",
+        "amount": 25000,
+        "drawDate": "2025-01-10",
+        "payerName": "ИП Смердов Никита Павлович",
+        "payerInn": "660701945742",
+        "payerAccount": "65734231543654675678",
+        "payerCorrAccount": "30101810745374525104",
+        "payerBic": "044525104",
+        "payerBank": "АО \"ТБанк\"",
+        "chargeDate": "2025-01-10",
+        "recipient": "ООО \"ВДЕЛО\"",
+        "recipientInn": "6623134596",
+        "recipientAccount": "40701810300000006947",
+        "recipientCorrAccount": "30101810145250000974",
+        "recipientBic": "044525974",
+        "recipientBank": "АО \"ТБанк\"",
+        "operationType": "01",
+        "paymentPurpose": "Хочу вернуть деньги по проекту 13947",
+        "creatorStatus": "",
+        "executionOrder": "5"
+    }
+}

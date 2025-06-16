@@ -1,0 +1,4 @@
+GET {{URL}}/auth/tbank/swap
+    ?uuid=2d14b756-9256-438f-9a19-6d264b63cd3d
+    &onlyUpdate=true
+Access: {{ACCESS_TOKEN}}

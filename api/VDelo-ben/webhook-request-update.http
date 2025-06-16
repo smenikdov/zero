@@ -1,0 +1,15 @@
+POST 127.0.0.1:3008/api/tbank/webhook/request-update
+Accept: application/json
+Content-Type: application/json
+
+{
+  "paymentId": "64be58f9-c7fc-0027-96ba-763ec56a2317",
+  "agreementId": "0ac6e475-446c-4ca3-9a5e-b4279a0cb45c",
+  "ruleid": "e627c064-b2ed-4a55-b52f-ddfca12bcf79",
+  "direction": "Credit",
+  "status": "Pending"
+}
+
+
+
+
