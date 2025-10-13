@@ -156,6 +156,8 @@
 | **streamtmux**                   |                                                                          |
 | **zshrc**                        |                                                                          |
 | **bdcli**                        |                                                                          |
+| **cliexercises**                 |                                                                          |
+
 
 ## Pentest
 | **Burp Suite**                   | Инструмент для тестирования веб-приложений                               |
