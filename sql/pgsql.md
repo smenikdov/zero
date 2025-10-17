@@ -307,7 +307,7 @@ FROM table;
 4. Функции для создания и модификации jsonb
 
 *to_jsonb(anyelement) Преобразует значение PostgreSQL (например, строку, число, массив) в jsonb*
-`tO_JSONB('Hello')` → '"Hello"'::jsonb
+`TO_JSONB('Hello')` → '"Hello"'::jsonb
 
 *jsonb_build_object(VARIADIC "any") Создаёт объект jsonb из пар ключ-значение*
 `JSONB_BUILD_OBJECT('a', 1, 'b', 'text')` → {"a": 1, "b": "text"}
