@@ -143,6 +143,7 @@ FROM table;
 `LN(x)` Возвращает натуральный логарифм
 `LOG(x)` Логарифм по основанию 10
 `EXP(x)` Экспонента, возводит число е в степень x
+`CEILING(x)` Округление в большую сторону
 
 2. Тригонометрические функции
 `SIN(x)` Синус
@@ -384,6 +385,9 @@ FROM table;
 
 *JUSTIFY_DAYS(interval) Преобразует интервал, нормализуя дни*
 `SELECT JUSTIFY_DAYS(INTERVAL '32 days')` → '1 month 2 days'
+
+*DATEDIFF(field, start, end) Вычисляет разницу между двумя датами*
+`SELECT DATEDIFF(day, TIMESTAMP '2025-09-25', TIMESTAMP '2025-01-01')`
 
 6. Работа с часовыми поясами
 
