@@ -1,3 +1,10 @@
+createdb mydatabase
+psql -U postgres -d mydatabase -f dump_file.sql
+
+
+
+
+
 ## Основные виды JOIN
 - `INNER JOIN`
 - `LEFT JOIN (LEFT OUTER JOIN)`
