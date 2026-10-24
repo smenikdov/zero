@@ -129,7 +129,9 @@ svc.getUser(1);
 
 ## Ссылки
 
-- Martin Fowler: [Inversion of Control Containers and the Dependency Injection
-pattern](https://martinfowler.com/articles/injection.html)
-- Mark Seemann: Dependency Injection in .NET (книга)
+- [youtube](https://www.youtube.com/watch?v=f270BoTicMA)
+- https://www.youtube.com/watch?v=DpMGEhwuuyA
+- https://www.youtube.com/watch?v=yOC0e0NMZ-E
+- https://www.youtube.com/watch?v=J1f5b4vcxCQ
+- https://www.youtube.com/watch?v=CK_OY_gZrCE
 

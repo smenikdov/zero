@@ -17,12 +17,13 @@
 - [Atomic Design](methodology/atomic.md) — Атомарный дизайн
 - [FSD](methodology/fsd.md) — Feature-Sliced Design
 - [Onion Architecture](methodology/onion.md) — Луковая архитектура
+- [Layered Architecture](methodology/layered.md) — Слоистая архитектура (N-Tier)
+- [Clean Architecture](methodology/clean.md) — Чистая архитектура
 
 - [Monolith](methodology/monolith.md) — Монолитная архитектура
 - [Microservices](methodology/microservices.md) — Микросервисная архитектура
 - [SOLID](methodology/solid.md) — SOLID
 
-- [Clean Architecture](methodology/clean.md) — Чистая архитектура
 - [Hexagonal Architecture](methodology/hexagonal.md) — Гексагональная (Ports & Adapters)
 - [DDD](methodology/ddd.md) — Domain-Driven Design
 - [Serverless](methodology/serverless.md) — Бессерверная архитектура

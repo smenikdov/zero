@@ -152,7 +152,5 @@ const controller = new OrderController(useCase);
 
 ## Ссылки
 
-- Robert C. Martin: Clean Architecture (книга)
-- [The Clean Architecture (блог Мартина)](https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html)
-- Jason Taylor: [Clean Architecture Solution Template](https://github.com/jasontaylordev/CleanArchitecture)
+- [11 hours video](https://www.youtube.com/watch?v=WlCDcr8JYFU)
 
