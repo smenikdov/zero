@@ -12,24 +12,32 @@
 
 - [BFF](patterns/bff.md) — Backend For Frontend
 - [Saga](patterns/saga.md) — Сага (распределённые транзакции)
+- [Event Sourcing](patterns/event-sourcing.md) — Хранилище событий
 
-### Методологии
-- [Atomic Design](methodology/atomic.md) — Атомарный дизайн
-- [FSD](methodology/fsd.md) — Feature-Sliced Design
-- [Onion Architecture](methodology/onion.md) — Луковая архитектура
-- [Layered Architecture](methodology/layered.md) — Слоистая архитектура (N-Tier)
-- [Clean Architecture](methodology/clean.md) — Чистая архитектура
+### Архитектурные стили
 
-- [Monolith](methodology/monolith.md) — Монолитная архитектура
-- [Microservices](methodology/microservices.md) — Микросервисная архитектура
-- [SOLID](methodology/solid.md) — SOLID
+#### Организация кода
+- [Layered Architecture](styles/layered.md) — Слоистая архитектура
+- [Onion Architecture](styles/onion.md) — Луковая архитектура
+- [Clean Architecture](styles/clean.md) — Чистая архитектура
+- [Hexagonal Architecture](styles/hexagonal.md) — Гексагональная (Ports & Adapters)
 
-- [Hexagonal Architecture](methodology/hexagonal.md) — Гексагональная (Ports & Adapters)
-- [DDD](methodology/ddd.md) — Domain-Driven Design
-- [Serverless](methodology/serverless.md) — Бессерверная архитектура
-+ [Event Sourcing](methodology/event-sourcing.md) — Хранилище событий
+#### Топология системы
+- [Multitier Architecture](systems/topology/multitier.md) — Многоуровневая архитектура
+- [Modular Monolith](systems/topology/modular-monolith.md) — Модульный монолит
+- [Microservices](systems/topology/microservices.md) — Микросервисная архитектура
+- [Serverless](systems/topology/serverless.md) — Бессерверная архитектура
 
-### + Антипаттерны
+#### Модели развертывания
+- [Monolith](systems/deployment/monolith.md) — Монолитная архитектура
+- [Distributed Systems](systems/deployment/distributed.md) — Распределённые системы
+
+### Методологии и подходы
+- [DDD](methodologies/ddd.md) — Domain-Driven Design
+- [FSD](methodologies/fsd.md) — Feature-Sliced Design
+- [Atomic Design](methodologies/atomic.md) — Атомарный дизайн
+
+### Антипаттерны
 - [Big Ball of Mud](antipatterns/big-ball-of-mud.md) — Большой ком грязи
 - [Spaghetti Code](antipatterns/spaghetti-code.md) — Спагетти-код
 - [God Object](antipatterns/god-object.md) — Божественный объект
@@ -45,4 +53,3 @@
 - [Soft-Coding](antipatterns/soft-coding.md) — Софткодинг
 - [Hard-Coding](antipatterns/hard-coding.md) — Хардкодинг
 - [Overengineering](antipatterns/overengineering.md) — Оверинжиниринг
-
